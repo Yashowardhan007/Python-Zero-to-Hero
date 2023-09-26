@@ -41,6 +41,21 @@ pop_item = newlist.pop(0);
 print(pop_item) #1
 print(newlist) #['Two', 'Three', 'Four', 'Five']
 
+#Sort element in Python
+newlist = ['a','z','y','e','d','b',]
+numlist = [4,3,2,11,12,78,0,1,22,]
+
+print('Unsorted:',newlist) #Unsorted: ['a', 'z', 'y', 'e', 'd', 'b']
+newlist.sort()
+print('Sorted:',newlist) #Sorted: ['a', 'b', 'd', 'e', 'y', 'z']
+print('Unsorted:',numlist) #Unsorted: [4, 3, 2, 11, 12, 78, 0, 1, 22]
+numlist.sort()
+print('Sorted: ',numlist) #Sorted:  [0, 1, 2, 3, 4, 11, 12, 22, 78]
+
+#reverse the list
+print('Before Reverse: ',numlist) #Before Reverse:  [0, 1, 2, 3, 4, 11, 12, 22, 78]
+numlist.reverse()
+print('After Reverse: ',numlist) #After Reverse:  [78, 22, 12, 11, 4, 3, 2, 1, 0]
 
  
 
